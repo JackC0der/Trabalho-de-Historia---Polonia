@@ -1,0 +1,146 @@
+@font-face{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+@keyframes textright{
+	from{
+		margin-left: -50%;
+	}
+	to{
+		margin-left: 5%;
+	}
+}
+
+*{
+	box-sizing: border-box;	
+}
+
+html, body{
+	margin:0;
+	padding:0;
+}
+
+body{
+    background: url("Back.jpg") fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+ul{
+    text-align: right;
+    margin-top: 3%;
+}
+
+a {
+    text-decoration: none;
+}
+
+li{
+    text-align: right;
+    display: inline;
+    margin-right: 70px;
+    color: white;
+    font-size: 25px;
+    font-family: Open Sans;
+}
+
+#index h1{
+    font-family: 'Maven Pro';
+    font-size: 60px;
+    margin-left: 5%;
+    color: white;
+    margin-top: 10%;
+    animation-name: textright;
+    animation-duration: 2s;
+}
+
+#NationalRadicalCampFlag{
+	margin-left: 39%;
+	width: 200px;
+	height: 150px;
+}
+
+article.texto{
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: -5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    padding-bottom: 3%;
+}
+
+article.texto img{
+	margin-left: 30%;
+    width: 35%;
+    height: auto;
+}
+
+article.texto img.mapa{
+	margin-left: 30%;
+    width: 35%;
+    height: auto;
+}
+
+article.texto h1, article.texto h2{
+    color: white;
+    font-family: 'Maven Pro';
+    text-align: left;
+    font-size: 52px;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+
+article.texto h2{
+	font-size: 36px;
+}
+
+article.texto p{
+    margin-left: 5%;
+    font-family: sans-serif;
+    font-size: 22px;
+    color: white;
+}
+
+article.texto table{
+	border-collapse: collapse;
+	border-bottom: 1px solid black;
+	width: 75%;
+	margin-bottom: 2%;
+}
+
+article.texto table td{
+	padding: 15px;
+	font-size: 24px;
+	text-align: left;
+	background-color: rgb(192,192,192);
+	border-bottom: 1px solid black;
+}
+
+article.texto table th{
+	background-color: rgba(105, 105, 105, 0.8);
+	color: rgb(255, 255, 255);
+	font-family: 'Maven Pro';
+	font-size: 24px;
+	padding: 15px;
+	text-align: left;
+	border-bottom: 1px solid black;
+}
+
+a:hover{
+    /*color: gray;*/
+    filter: blur(1.5px);
+    transition: 0.2s ease;
+}
+
+article.texto table td:hover{
+	background-color: rgb(255, 255, 255);
+	transition: 0.2s ease;
+}
+
+article.texto img.mapa:hover{
+	margin: 2%;
+    width: 95%;
+    height: 95%;
+}
